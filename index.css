@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+    margin-left: 150px;
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 50%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+    font-size: larger;
+}
+
+.click {
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.click button {
+    background-color: rgb(170, 107, 228);
+    padding: 20px 40px;   
+    font-size: 24px;      
+    border-radius: 12px;  
+    cursor: pointer;      
+    color: rgb(18, 18, 62);         
+    transition: background-color 0.3s ease;
+    transform: scale(1.01, 1.01);
+    position: relative;
+    border: none;
+    font-family: inherit;
+}
+
+.click button span {
+    position: relative;
+    display: inline-block;
+}
+
+/* Underline animation from center */
+.click button span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(18, 18, 62);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.click button:hover span::after {
+    transform: scaleX(1);
+}
+
+.click button:hover {
+    background-color: rgb(140, 87, 188);
+}
+
+.click a {
+    text-decoration: none;
+}
+
+
+/* second section */
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(170, 107, 228);
+    font-size: smaller;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 120vh;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+.secondSection b {
+    font-size: 1.2rem;
+    color: rgb(170, 107, 228);
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+
+.secondSection .vertical {
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    margin: 0 100;
+    margin-left: 30px;
+}
+
+.image-logo {
+    height: 70px;
+    margin-top: 50px;
+    margin-left: -35px;
+
+}
+
+.project {
+    margin-top: 80px;
+}
+
+/* box2 of second section */
+
+.secondSection .box2 {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 350px 0;
+}
+.secondSection .vertical2 {
+    height: 20px;
+    width: 2px;
+    background-color: white;
+    margin: 0 100;
+    margin-left: 30px;
+}
+
+.image-logo2 {
+    height: 70px;
+    margin-top: 50px;
+    margin-left: -35px;
+
+}
+
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+}
+
+.thirdSection h1 {
+    font-size: 1.9rem;
+}
+
+.thirdSection b {
+    font-size: 1.2rem;
+    color: rgb(170, 107, 228);
+}
+
+.thirdSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+#tenth {
+    margin: 40px;
+}
+
+#twelfth {
+    margin: 40px;
+}
+
+#bachelors {
+    margin: 50px;
+}
+
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.fourthSection h1 {
+    font-size: 1.9rem;
+}
+
+.fourthSection b {
+    font-size: 1.2rem;
+    color: rgb(170, 107, 228);
+}
+
+.fourthSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+}
+
+.fourthSection span {
+    margin: 100px;
+}
+
+/* footer code   css */
+
+
+footer{
+    background-color:rgb(18, 18, 62);
+}
+.footerContainer {
+    width: 100%;
+    padding-top: 70px;
+}
+
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+} 
+.socialIcons a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding:  10px;
+    color: blue;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    width: 6px;           
+    height: 6px;  
+    display: flex;          
+    justify-content: center; 
+    align-items: center;  
+} 
+
+
+/* Hover affect on social media icon */
+
+.socialIcons a:hover{
+    transition: 0.5s;
+}
+
+#facebook a:hover {
+    color: white;
+    background-color: blue;
+}
+#instagram a:hover {
+    color: white;
+    background-color: rgb(237, 32, 87);
+}
+#twitter a:hover {
+    color: white;
+    background-color: rgb(19, 18, 18);
+}
+#YouTube a:hover {
+    color: white;
+    background-color: red;
+}
+
+
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    color: rgb(170, 107, 228);
+}
+.footerBottom{
+    background-color: rgb(0, 0, 33);
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color:rgb(170, 107, 228);
+}
